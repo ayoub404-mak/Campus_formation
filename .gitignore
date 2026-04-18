@@ -1,0 +1,16 @@
+# Ignore sensitive files
+/var/www/config.php
+*.env
+database.sql
+info.php
+
+# Ignore logs and temporary files
+*.log
+error_log
+php_errors.log
+
+# Ignore IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
